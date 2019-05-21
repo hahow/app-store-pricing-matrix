@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "A simple module that holds currencies and prices from the Apple's iOS App Store.",
   "license": "MIT",
-  "repository": "amowu/app-store-pricing-matrix",
+  "repository": "hahow/hh-pricing",
   "main": "dist/index.js",
   "author": {
     "name": "Amo Wu",

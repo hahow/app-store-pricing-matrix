@@ -1,5 +1,5 @@
 {
-  "name": "app-store-pricing-matrix",
+  "name": "@hahow/hh-pricing",
   "version": "1.0.6",
   "description": "A simple module that holds currencies and prices from the Apple's iOS App Store.",
   "license": "MIT",

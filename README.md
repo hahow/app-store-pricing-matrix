@@ -1,7 +1,7 @@
-# app-store-pricing-matrix
+# hh-pricing
 
-[![NPM version](https://img.shields.io/npm/v/app-store-pricing-matrix.svg?style=flat-square)](https://npmjs.org/package/app-store-pricing-matrix)
-[![Build Status](https://img.shields.io/travis/amowu/app-store-pricing-matrix/master.svg?style=flat-square)](https://travis-ci.org/amowu/app-store-pricing-matrix) [![Coverage Status](https://img.shields.io/codecov/c/github/amowu/app-store-pricing-matrix/master.svg?style=flat-square)](https://codecov.io/gh/amowu/app-store-pricing-matrix/branch/master)
+[![NPM version](https://img.shields.io/npm/v/@hahow/hh-pricing.svg?style=flat-square)](https://www.npmjs.com/package/@hahow/hh-pricing)
+[![Build Status](https://img.shields.io/travis/hahow/hh-pricing/master.svg?style=flat-square)](https://travis-ci.org/hahow/hh-pricing) [![Coverage Status](https://img.shields.io/codecov/c/github/hahow/hh-pricing/master.svg?style=flat-square)](https://codecov.io/gh/hahow/hh-pricing/branch/master)
 
 A simple module that holds currencies and prices from the Apple's iOS App Store.
 
@@ -9,22 +9,22 @@ A simple module that holds currencies and prices from the Apple's iOS App Store.
 
 npm:
 
-    npm i app-store-pricing-matrix
+    npm i @hahow/hh-pricing
 
 Yarn:
 
-    yarn add app-store-pricing-matrix
+    yarn add @hahow/hh-pricing
 
 ## Usage
 
 ```js
-import AppStorePricingMatrix from "app-store-pricing-matrix";
+import AppStorePricingMatrix from "@hahow/hh-pricing";
 ```
 
 or
 
 ```js
-const AppStorePricingMatrix = require("app-store-pricing-matrix");
+const AppStorePricingMatrix = require("@hahow/hh-pricing");
 ```
 
 ```js

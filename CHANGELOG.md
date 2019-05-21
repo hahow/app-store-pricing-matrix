@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/amowu/app-store-pricing-matrix/compare/v1.0.6...v2.0.0) (2019-05-21)
+
+
+### Features
+
+* update pricing_matrix.json ([1b57e50](https://github.com/amowu/app-store-pricing-matrix/commit/1b57e50))
+
+
+### BREAKING CHANGES
+
+* App Store Price Changes
+
+
+
 ## [1.0.6](https://github.com/amowu/app-store-pricing-matrix/compare/v1.0.5...v1.0.6) (2019-03-12)
 
 

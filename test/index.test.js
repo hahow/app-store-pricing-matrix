@@ -179,8 +179,8 @@ test("#findBy", () => {
   expect(tierTW1.tierStem).toEqual("1");
   expect(tierTW1.countryCode).toEqual("TW");
   expect(tierTW1.currencyCode).toEqual("TWD");
-  expect(tierTW1.retailPrice).toEqual(30);
-  expect(tierTW1.wholesalePrice).toEqual(20);
+  expect(tierTW1.retailPrice).toEqual(33);
+  expect(tierTW1.wholesalePrice).toEqual(22);
 
   const tierMY1 = findBy({
     tier: "1",

@@ -9,7 +9,7 @@ A simple module that holds currencies and prices from the Apple's iOS App Store.
 
 npm:
 
-    npm i @hahow/hh-pricing
+    npm i @hahow/hh-pricing --save
 
 Yarn:
 

@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/hahow/hh-pricing/compare/v2.0.1...v2.0.2) (2019-06-05)
+
+
+### Bug Fixes
+
+* findBy().retailPrice should be undefined when tier not found ([87ee679](https://github.com/hahow/hh-pricing/commit/87ee679))
+
+
+
 ## [2.0.1](https://github.com/hahow/hh-pricing/compare/v2.0.0...v2.0.1) (2019-05-21)
 
 

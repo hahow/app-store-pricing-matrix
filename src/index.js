@@ -240,9 +240,11 @@ export const currencies = _.chain(
  * AppStorePricingMatrix.findBy({ country: "MY", tier: "1" });
  */
 export const findBy = ({ country, tier }) => {
-  const { tierStem, tierName, pricingInfo } = find(tiers, {
-    tierStem: tier
-  });
+  const pricing = find(tiers, { tierStem: tier });
+
+  const tierStem = get(pricing, "tierStem");
+  const tierName = get(pricing, "tierName");
+  const pricingInfo = get(pricing, "pricingInfo");
 
   const pricingInfoFindByCountry = find(pricingInfo, {
     countryCode: country

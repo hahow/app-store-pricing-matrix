@@ -193,3 +193,12 @@ test("#findBy", () => {
   expect(tierMY1.retailPrice).toEqual(3.9);
   expect(tierMY1.wholesalePrice).toEqual(2.73);
 });
+
+test("findBy().retailPrice should be undefined when tier not found", () => {
+  const tier = findBy({
+    tier: "999",
+    country: "TW"
+  });
+
+  expect(tier.retailPrice).toBeUndefined();
+});
